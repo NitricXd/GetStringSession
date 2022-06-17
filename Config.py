@@ -4,17 +4,17 @@ ENVIRONMENT = os.environ.get('ENVIRONMENT', False)
 
 if ENVIRONMENT:
     try:
-        API_ID = int(os.environ.get('API_ID', 0))
+        API_ID = int(os.environ.get('API_ID', "11508502"))
     except ValueError:
         raise Exception("Your API_ID is not a valid integer.")
-    API_HASH = os.environ.get('API_HASH', None)
-    BOT_TOKEN = os.environ.get('BOT_TOKEN', None)
-    DATABASE_URL = os.environ.get('DATABASE_URL', None)
+    API_HASH = os.environ.get('API_HASH', "3e6e5be80d5c89ff19b5e5fb7bfaa0f4")
+    BOT_TOKEN = os.environ.get('BOT_TOKEN', "5544831060:AAHWTjK-PLHW2oFXFgjWjV1CrBcIvdhwWBw")
+    DATABASE_URL = os.environ.get('DATABASE_URL', "postgres://brsyjraz:8Nty_347URh7aoPMsPtj-WGTxJzmUs83@jelani.db.elephantsql.com/brsyjraz")
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
     # https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre
     MUST_JOIN = os.environ.get('MUST_JOIN', None)
     if MUST_JOIN.startswith("@"):
-        MUST_JOIN = MUST_JOIN.replace("@", "")
+        MUST_JOIN = MUST_JOIN.replace("@", "TheXCodeTeam")
 else:
     # Fill the Values
     API_ID = 0
