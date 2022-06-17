@@ -12,7 +12,7 @@ Bᴏᴛ Fᴏʀ Hᴇʟᴘ Yᴏᴜ Tᴏ Cʀᴇᴀᴛᴇ Sᴇssɪᴏɴ.
 
 Yᴏᴜ Cᴀɴ Usᴇ Mᴇ Tᴏ Gᴇɴᴇʀᴀᴛᴇ Pʏʀᴏɢʀᴀᴍ Aɴᴅ Tᴇʟᴇᴛʜᴏɴ Sᴛʀɪɴɢ Sᴇssɪᴏɴ. Usᴇ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs Tᴏ Lᴇᴀʀɴ Mᴏʀᴇ ! 
 
-Pᴏᴡᴇʀᴇᴅ  Bʏ: [Nɪᴛʀɪᴄ xD](https://t.me/MrNitric)
+Pᴏᴡᴇʀᴇᴅ  Bʏ: [Nɪᴛʀɪᴄ xD](https://t.me/Xd_Nitric)
     """   
 
     # Home Button
@@ -27,12 +27,12 @@ Pᴏᴡᴇʀᴇᴅ  Bʏ: [Nɪᴛʀɪᴄ xD](https://t.me/MrNitric)
     # Rest Buttons
     buttons = [
         [InlineKeyboardButton("📡Sᴛᴀʀᴛ Gᴇɴᴇʀᴀᴛɪɴɢ Sᴇssɪᴏɴ🔰", callback_data="generate")],
-        [InlineKeyboardButton("Jᴏɪɴ Gʀᴏᴜᴘ", url="https://t.me/The_Friend_Circle")],
+        [InlineKeyboardButton("Jᴏɪɴ Gʀᴏᴜᴘ", url="https://t.me/XdFamilY")],
         [
             InlineKeyboardButton("Hᴏᴡ Tᴏ Usᴇ", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("Jᴏɪɴ Cʜᴀɴɴᴇʟ", url="https://t.me/Sanki_Bots")],
+        [InlineKeyboardButton("Jᴏɪɴ Cʜᴀɴɴᴇʟ", url="https://t.me/TheXCodeTeam")],
     ]
 
     # Help Message
